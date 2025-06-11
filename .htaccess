@@ -1,0 +1,42 @@
+diocese-management
+├── src
+│   ├── classes
+│   │   ├── Auth.php
+│   │   ├── Database.php
+│   │   ├── Member.php
+│   │   ├── Notification.php
+│   │   └── Sacrament.php
+│   ├── config
+│   │   ├── config.php
+│   │   └── database.php
+│   ├── controllers
+│   │   ├── AdminController.php
+│   │   ├── MemberController.php
+│   │   └── SacramentController.php
+│   └── views
+│       ├── admin
+│       │   ├── dashboard.php
+│       │   └── approvals.php
+│       ├── members
+│       │   ├── register.php
+│       │   └── profile.php
+│       ├── sacraments
+│       │   └── index.php
+│       └── layouts
+│           ├── header.php
+│           └── footer.php
+├── public
+│   ├── css
+│   │   └── styles.css
+│   ├── js
+│   │   ├── admin.js
+│   │   ├── notifications.js
+│   │   └── datatable-config.js
+│   └── index.php
+├── assets
+│   └── lang
+│       └── pt_BR.php
+├── vendor
+├── .htaccess
+├── composer.json
+└── README.md
